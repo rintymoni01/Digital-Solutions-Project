@@ -5,6 +5,8 @@ import HomeComponents from "./HomeComponents/HomeComponents";
 import HomeSection from "./HomeComponents/HomeSection";
 import HomeProject from "./HomeComponents/HomeProject";
 import HomePerfrom from "./HomeComponents/HomePerfrom";
+import HomeSelection from "./HomeComponents/HomeSelection";
+import HomePage from "./HomeComponents/HomePage";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
     <HomeSection></HomeSection>
     <HomeProject></HomeProject>
     <HomePerfrom></HomePerfrom>
+    <HomeSelection></HomeSelection>
+    <HomePage></HomePage>
    </div>
   );
 };

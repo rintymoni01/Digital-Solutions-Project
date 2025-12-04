@@ -4,32 +4,23 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from './Layout/Root';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
-import './index.css'
-import Contact from "./Pages/Contact/COntact";
+import Contact from './Pages/Contact/Contact';
 import Blog from "./Pages/Blog/Blog";
+import Servises from "./Pages/Servises/Servises";
+import Project from "./Pages/Project/Project";
+import './index.css';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     children: [
-      {
-        index: true,  // default child route
-        element: <Home />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/contact",
-        element:<Contact></Contact>,
-      },
-      
-      {
-        path: "/blog",
-        element:<Blog></Blog>,
-      },
+      { index: true, element: <Home /> },
+      { path: "/about", element: <About /> },
+      { path: "/servises", element: <Servises /> },
+      { path: "/blog", element: <Blog /> },
+      { path: "/project", element: <Project /> },
+      { path: "/contact", element: <Contact /> },  // ✅ ঠিক এখানে add করতে হবে
     ],
   },
 ]);

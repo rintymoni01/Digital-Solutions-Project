@@ -10,76 +10,107 @@ import { FaFacebookF } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className=' bg-[#060606] text-white pb-10'>
-            <div>
-          <div className='flex justify-between items-center container mx-auto px-6 border-b pb-20 border-gray-900'>
-  
-               <div>
-            <img src="/Image/white-logo-reeni (1).png" alt="" />
-            <h2 className='font-bold text-3xl py-5'>Get Ready  <span className='text-2xl '>To Create <br /> Great</span></h2>
-            <div className=' flex justify-between font-bold border-gray-900 pr-3 text-xs border-b pb-6'>
-                <p >Email Adress</p>
-            <CgMail />
-            </div>
-           </div>
-           <div>
-            <h3 className='text-xl font-semibold '>Quick Link</h3>
-<p className=' font-semibold py-2'>About Me</p>
-<p className=' font-semibold'>Service</p>
-<p className=' font-semibold py-2'>Contact Me</p>
-<p className=' font-semibold'>Blog Post</p>
-<p className=' font-semibold py-2'>Pricing</p>
-           </div>
-           <div className='f '>
-           <h3 className='text-xl font-semibold pb-5'> Contact</h3>
-           <div className='gap-2 items-center flex'>
-             <div className=' h-8 w-8 rounded-full bg-[#FF014F]  flex items-center justify-center '>
-                <CgMail />
-             </div>
-<p className=' font-semibold'> rintymoni01@.com</p>
-           </div>
-<div className='gap-2 flex py-3 items-center' > 
-    <div className=' h-8 w-8 rounded-full bg-[#FF014F]  flex items-center justify-center '>
-    <MdLocationOn />
-</div>
-<p className='font-semibold'>Darshona Realger ,Rangpur</p>
-</div>
-<div className='gap-2 flex items-center'>
-    <div className=' h-8 w-8 rounded-full bg-[#FF014F]  flex items-center justify-center '>
-    <FaPhoneVolume />
-</div>
-<p className=' font-semibold'>01834688***</p>
-</div>
-<div className='flex pt-4 gap-2'>
-<div className=' h-8 w-8 rounded-full bg-gray-800  flex items-center justify-center '>
-    <RiInstagramFill />
-</div>
-<div className=' h-8 w-8 rounded-full  bg-gray-800  flex items-center justify-center '>
-    <FaLinkedinIn />
-</div>
-<div className=' h-8 w-8 rounded-full  bg-gray-800  flex items-center justify-center '>
-    <IoLogoTwitter />
-</div>
-<div className=' h-8 w-8 rounded-full  bg-gray-800  flex items-center justify-center '>
-    <FaFacebookF />
-</div>
+    <div className='bg-[#060606] text-white '>
 
-</div>
+  {/* Footer Main */}
+  <div className='container mx-auto  px-4 sm:px-6 lg:px-6 py-10'>
+    <div className='flex flex-col lg:flex-row justify-between gap-10 lg:gap-0 items-start border-b pb-20 border-gray-900'>
+
+      {/* Logo & Email */}
+      <div className='flex-1 '>
+        <img src="/Image/white-logo-reeni (1).png" alt="" className="mb-4"/>
+        <h2 className='font-bold text-3xl sm:text-4xl lg:text-3xl py-5'>
+          Get Ready  <span className='text-2xl font-semibold'>To Create  <br />Great</span>
+        </h2>
+        <div className='flex gap-25 items-center font-bold   border-gray-900 pb-6'>
+          <p className='text-xs sm:text-sm'>Email Address</p>
+          <CgMail className='text-lg sm:text-xl'/>
+        </div>
+       <hr className='w-60'/>
+      
+      </div>
+ 
+      {/* Quick Links */}
+      <div className='flex-1'>
+        <h3 className='text-xl font-semibold mb-4'>Quick Link</h3>
+        <div className='flex flex-col gap-2 text-sm sm:text-base'>
+          <p className='font-semibold py-1'>About Me</p>
+          <p className='font-semibold py-1'>Service</p>
+          <p className='font-semibold py-1'>Contact Me</p>
+          <p className='font-semibold py-1'>Blog Post</p>
+          <p className='font-semibold py-1'>Pricing</p>
+        </div>
+      </div>
+
+      {/* Contact Info */}
+      <div className='flex-1'>
+        <h3 className='text-xl font-semibold mb-5'>Contact</h3>
+
+        <div className='flex items-center gap-2 mb-3'>
+          <div className='h-8 w-8 rounded-full bg-[#FF014F] flex items-center justify-center'>
+            <CgMail />
+          </div>
+          <p className='font-semibold text-sm sm:text-base'>rintymoni01@.com</p>
+        </div>
+
+        <div className='flex items-center gap-2 mb-3'>
+          <div className='h-8 w-8 rounded-full bg-[#FF014F] flex items-center justify-center'>
+            <MdLocationOn />
+          </div>
+          <p className='font-semibold text-sm sm:text-base'>Darshona Realger, Rangpur</p>
+        </div>
+
+        <div className='flex items-center gap-2 mb-3'>
+          <div className='h-8 w-8 rounded-full bg-[#FF014F] flex items-center justify-center'>
+            <FaPhoneVolume />
+          </div>
+          <p className='font-semibold text-sm sm:text-base'>01834688***</p>
+        </div>
+
+        {/* Social Icons */}
+        <div className='flex gap-2 mt-4'>
+          <div className='h-8 w-8 rounded-full bg-gray-800 flex items-center justify-center'>
+            <RiInstagramFill />
+          </div>
+          <div className='h-8 w-8 rounded-full bg-gray-800 flex items-center justify-center'>
+            <FaLinkedinIn />
+          </div>
+          <div className='h-8 w-8 rounded-full bg-gray-800 flex items-center justify-center'>
+            <IoLogoTwitter />
+          </div>
+          <div className='h-8 w-8 rounded-full bg-gray-800 flex items-center justify-center'>
+            <FaFacebookF />
+          </div>
+        </div>
+
+      </div>
+ 
+    </div>
+   
+  </div>
+ 
+
+  {/* Footer Bottom Bar */}
+  <div className='bg-[#060606] text-white py-4'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-6 flex flex-col lg:flex-row justify-between items-center gap-3'>
+
+      {/* Copyright */}
+      <div className='text-xs text-center lg:text-left'>
+        <p>&copy; 2025 InversWeb | All Rights Reserved</p>
+      </div>
+
+      {/* Links */}
+      <div className='flex flex-col sm:flex-row gap-2 sm:gap-3 text-xs text-center lg:text-right'>
+        <p>Terms & Condition</p>
+        <p>Privacy Policy</p>
+        <p>Contact Us</p>
+      </div>
+
+    </div>
   </div>
 
-           </div >
-    
-          </div>
-       <div className='flex justify-between items-center container mx-auto px-6 pt-4'>
-         <div className=' text-xs'>
-        
-<p>&copy; 2025 InversWeb | All Rights Reserved</p>
-        </div>
-        <div className='flex gap-3 text-xs'>
-           <p> Trams & Condition</p>
-<p>Privacy Policy</p>
-<p>Contact Us</p>
-        </div>
-       </div>
+</div>
+
   
           </div>
     );

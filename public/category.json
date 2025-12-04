@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Desktop PC",
+    "subcategory": "Sustainable Solutions: Designing for Tomorrow",
+    "image": "/Image/single-post-card-img-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "subcategory": "Technological Innovations: Shaping the Future",
+    "image": "/Image/single-post-card-img-2.png"
+  },
+  {
+    "id": 3,
+    "name": "PC Components",
+    "subcategory": "Adventure Awaits Exploring the Great Outdoors",
+    "image": "/Image/single-post-card-img-3.png"
+  },
+  {
+    "id": 4,
+    "name": "PC Accessories",
+    "subcategory": "Keyboard",
+    "image": "https://example.com/images/keyboard.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Gaming",
+    "subcategory": "Gaming Mouse",
+    "image": "https://example.com/images/gaming-mouse.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Storage & Drives",
+    "subcategory": "External SSD",
+    "image": "https://example.com/images/external-ssd.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Networking & Internet",
+    "subcategory": "WiFi Router",
+    "image": "https://example.com/images/wifi-router.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Gadgets & Peripherals",
+    "subcategory": "Bluetooth Earbuds",
+    "image": "https://example.com/images/bluetooth-earbuds.jpg"
+  }
+]

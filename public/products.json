@@ -1,0 +1,98 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Digital Transformation Advisors",
+    "price": 549.99,
+    "old_price": 699.99,
+    "short_description": "Lightweight performance laptop for study & office work.",
+    "long_description": "Powered by Intel Core i5 12th Gen processor, 8GB RAM, 512GB SSD, 14-inch FHD display, and aluminum body. Best for students, office work, and multitasking.",
+    "rating": 4.4,
+    "image": "/Image/tab-image-7.png",
+    "category": "teaDevelopment Coaches",
+    "in_stock": true
+  },
+  {
+    "id": "prod-002",
+    "name": "Digital Transformation Advisors",
+    "price": 39.99,
+    "old_price": 59.99,
+    "short_description": "Crystal clear audio with noise cancellation.",
+    "long_description": "Bluetooth 5.3, ENC noise cancellation, 40-hour battery backup, deep bass, dual mic support, and ultra-comfort cushion design.",
+    "rating": 4.6,
+    "image": "/Image/tab-image-6.png",
+    "category": "Development Coaches",
+    "in_stock": true
+  },
+  {
+    "id": "prod-003",
+    "name": "Digital Transformation Advisors",
+    "price": 24.99,
+    "old_price": 39.99,
+    "short_description": "Outemu Blue switches with RGB backlight.",
+    "long_description": "Durable mechanical keys, 50 million keystroke lifespan, RGB lighting presets, anti-ghosting support. Great for gamers and typists.",
+    "rating": 4.2,
+    "image": "/Image/tab-image-5.png",
+    "category": "Development Coaches",
+    "in_stock": true
+  },
+  {
+    "id": "prod-004",
+    "name": "Digital Transformation Advisors",
+    "price": 14.49,
+    "old_price": 19.99,
+    "short_description": "Perfect for online class, video calls & streaming.",
+    "long_description": "1080p wide-angle lens, noise-reduction microphone, USB plug-and-play support. Works with Zoom, Google Meet, OBS.",
+    "rating": 4.7,
+    "image": "/Image/tab-image-4.png",
+    "category": "Development Coaches",
+    "in_stock": true
+  },
+  {
+    "id": "prod-005",
+    "name": "Laptop Cooling Pad 5-Fan RGB",
+    "price": 17.99,
+    "old_price": 25.99,
+    "short_description": "Stand out from the crowd with a professional portfolio",
+    "long_description": "5 powerful fans, adjustable height, USB-powered, RGB lighting, supports 14–17 inch laptops. Best for gaming and long work sessions.",
+    "rating": 4.1,
+    "image": "/Image/blog-classic-card-img-1.jpg",
+    "category": "Accessories",
+    "in_stock": true
+  },
+  {
+    "id": "prod-006",
+    "name": "Portable SSD 1TB USB-C",
+    "price": 59.99,
+    "old_price": 79.99,
+    "short_description": "Elevate your brand with a the stunning portfolio",
+    "long_description": "1TB NVMe external SSD, read speed up to 1050MB/s, shockproof body, USB-C/USB-A compatible. Ideal for video editors & photographers.",
+    "rating": 4.5,
+    "image": "/Image/blog-classic-card-img-2.jpg",
+    "category": "Storage",
+    "in_stock": true
+  },
+  {
+    "id": "prod-007",
+    "name": "Gaming Mouse 7200 DPI RGB",
+    "price": 12.99,
+    "old_price": 17.99,
+    "short_description": "Elevate your brand with a the stunning portfolio",
+    "long_description": "Ergonomic design, 7 programmable buttons, DPI range 1200–7200, RGB strips, perfect for FPS and MOBA gamers.",
+    "rating": 4.3,
+    "image": "/Image/blog-classic-card-img-3.jpg",
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "id": "prod-008",
+    "name": "Mini Desktop PC (Ryzen 5 5600U)",
+    "price": 269.99,
+    "old_price": 329.99,
+    "short_description": "Compact mini PC for home office & media use.",
+    "long_description": "Ryzen 5 5600U CPU, 16GB RAM, 512GB SSD, WiFi 6, Bluetooth 5.2, triple display support (HDMI+DP+Type-C).",
+    "rating": 4.6,
+    "image": "https://example.com/images/mini-pc-ryzen.jpg",
+    "category": "Computer",
+    "in_stock": true
+  }
+]
